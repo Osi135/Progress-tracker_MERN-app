@@ -1,0 +1,8 @@
+p {
+    font-size: 40px;
+    color: var(--secondary-color);
+}
+img {
+    height: calc(var(--minimal-px-unit) * 20);
+    width: calc(var(--minimal-px-unit) * 20);
+}
