@@ -3,15 +3,12 @@ import './Tasks.scss';
 import { images } from '../../constants';
 import { NavbarWrap } from '../../wrapper';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
-
 
 const Tasks = () => {
   const [tasks, setTasks] = useState([]);
   const [task, setTask] = useState({
     title: ''
   });
-  const navigate = useNavigate();
 
   useEffect(() => {
     axios

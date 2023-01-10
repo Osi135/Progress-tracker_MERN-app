@@ -2,7 +2,7 @@ const express = require('express');
 const connectDB = require('./config/db');
 const cors = require('cors');
 
-// routes
+// import Routes
 const tasksApi = require('./routes/api/tasksApi');
 
 const app = express();
